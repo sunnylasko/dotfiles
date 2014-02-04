@@ -1,0 +1,45 @@
+*scrollBar: false
+*borderLess: false
+*font: xft:Inconsolata:size=10
+!*font: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+!*boldFont: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:     firefox
+URxvt.matcher.button:   1
+
+urxvt.foreground: 	#444444
+urxvt.background: 	#eeeeee
+urxvt.cursorColor:  #cccccc
+
+! Black
+urxvt.color0:       #d3d3d3
+urxvt.color8:       #b3b3b3
+
+! Red
+urxvt.color1:       #ff807a
+urxvt.color9:       #ff605a
+
+! Green
+urxvt.color2:       #00af00
+urxvt.color10:      #0c8b13
+
+! Yellow
+urxvt.color3:       #e8c15b
+urxvt.color11:      #d6953b
+
+! Blue
+urxvt.color4:       #0087d7
+urxvt.color12:      #0e648e
+
+! Magenta
+urxvt.color5:       #a75be8
+urxvt.color13:      #8e3bd6
+
+! Cyan
+urxvt.color6:       #4bb1c3
+urxvt.color14:      #20929f
+
+! White
+urxvt.color7:       #707070
+urxvt.color15:      #909090

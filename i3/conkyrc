@@ -1,0 +1,21 @@
+out_to_x no
+out_to_console yes
+short_units yes
+update_interval 1
+
+TEXT
+
+[\
+# Volume
+{"full_text":"VOL","color":"\#aaaaaa","separator":false,"separator_block_width":6},\
+{"full_text":"${exec sh ~/.i3/vol.sh}", "color":"\#606060", "separator":false, "separator_block_width":6},\
+# Battery
+{"full_text":"BATT","color":"\#aaaaaa","separator":false,"separator_block_width":6},\
+{"full_text":"${battery_percent}%", "color":"\#606060", "separator":false, "separator_block_width":6},\
+# Date:
+{"full_text":"DATE","color":"\#aaaaaa","separator":false,"separator_block_width":6},\
+{"full_text":"${time %D}","color":"\#606060","separator":false,"separator_block_width":6},\
+# Time:
+{"full_text":"TIME","color":"\#aaaaaa","separator":false,"separator_block_width":6},\
+{"full_text":"${time %H:%M}","color":"\#606060","separator":false}\
+],
